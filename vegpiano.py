@@ -40,7 +40,7 @@ class Piano(object):
                     if (self.sounds[i]):
                         self.sounds[i].play()
             last_touched = current_touched
-            time.sleep(0.1)
+            time.sleep(0.01)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Use RaspberryPi Capacitance Touch HAT as a Piano')
